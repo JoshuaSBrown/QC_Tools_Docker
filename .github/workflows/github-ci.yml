@@ -35,6 +35,9 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
 
+    - name: Display working directory
+      run: pwd
+
     - name: Build docker image
       run: |
          ls
