@@ -38,7 +38,8 @@ jobs:
     - name: Display working directory
       run: pwd
 
+    - name: list dir contents
+      run: ls -a
+
     - name: Build docker image
-      run: |
-         ls
-         docker build
+      run: docker build
